@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daily News Feed</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <!-- Header -->
+    <header class="header">
+      <div class="logo">📰</div>
+      <div class="title">
+        <h1>Daily News Feed</h1>
+        <p>Your daily source for trending headlines</p>
+      </div>
+    </header>
+
+    <!-- Search Bar -->
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search news..." />
+      <button id="refreshBtn">🔄 Refresh</button>
+    </div>
+
+    <!-- News Container -->
+    <main id="newsContainer" class="news-grid">
+      <!-- News Card 1 -->
+      <div class="news-card fade-in">
+        <img src="https://images.unsplash.com/photo-1542281286-9e0a16bb7366?auto=format&fit=crop&w=1400&q=60" alt="Battery Tech">
+        <div class="news-content">
+          <h2>Breakthrough in Renewable Battery Tech</h2>
+          <p>Scientists have unveiled a new battery that charges in under 10 minutes.  
+            It could revolutionize the electric vehicle industry, reducing wait times drastically.  
+            Early tests show a 40% improvement in energy retention.</p>
+          <a href="#" class="read-more" target="_blank">Read More</a>
+        </div>
+      </div>
+
+      <!-- News Card 2 -->
+      <div class="news-card fade-in">
+        <img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231?auto=format&fit=crop&w=1400&q=60" alt="Smart Cities">
+        <div class="news-content">
+          <h2>Smart Cities Adopting Waste Management AI</h2>
+          <p>AI-powered systems are now optimizing waste collection routes in major cities.  
+            This reduces pollution and fuel costs while improving sustainability.  
+            Municipalities report a 25% efficiency boost.</p>
+          <a href="#" class="read-more" target="_blank">Read More</a>
+        </div>
+      </div>
+
+      <!-- News Card 3 -->
+      <div class="news-card fade-in">
+        <img src="culture fest.jpg" alt="Cultural Festival">
+        <div class="news-content">
+          <h2>Cultural Festival Draws Record Crowds</h2>
+          <p>The annual cultural fair drew thousands of visitors this weekend.  
+            Artists, dancers, and musicians from 20 countries showcased their work.  
+            Organizers say next year’s event will be even bigger.</p>
+          <a href="#" class="read-more" target="_blank">Read More</a>
+        </div>
+      </div>
+
+      <!-- News Card 4 -->
+      <div class="news-card fade-in">
+        <img src="https://images.unsplash.com/photo-1507537297725-24a1c029d3ca?auto=format&fit=crop&w=1400&q=60" alt="Walking Study">
+        <div class="news-content">
+          <h2>Study Links Walking to Mental Health</h2>
+          <p>Researchers found that walking for 15 minutes daily can boost mood.  
+            Participants showed lower stress levels and improved focus.  
+            Experts suggest incorporating walking into daily routines.</p>
+          <a href="#" class="read-more" target="_blank">Read More</a>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <p>© 2025 Daily News Feed | Designed by Sunil</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
